@@ -17,6 +17,7 @@ a{
     flex: 1 0 40%;
     background-image: url("background.jpg");
     background-size: 100vh;
+    background-position: 10%;
 }
 
 .logo-bg{

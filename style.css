@@ -5,6 +5,11 @@ body{
     padding: 0;
 }
 
+a{
+    color: rgb(227, 214, 214);
+    text-decoration-color:rgb(227, 214, 214);
+}
+
 .left-side{
     position: relative;
     display: flex;
@@ -27,6 +32,19 @@ body{
 
 .logo{
     display: flex;
+    align-items: center;
+}
+
+.odin-png{
+    height: 100%;
+    width: 80%;
+}
+
+.footer{
+    color: rgb(241, 227, 227);
+    margin-top: auto;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .right-side{

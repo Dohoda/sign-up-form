@@ -29,7 +29,7 @@ a{
 .logo-bg{
     background-color: black;
     opacity: 0.4;
-    margin-top: 12rem;
+    margin-top: 11.5rem;
     height: 20%;
     width: 100%;
 }
@@ -40,7 +40,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12rem;
+    margin-top: 11.5rem;
     position: absolute;
 }
 
@@ -78,4 +78,49 @@ a{
     font-weight: 600;
     color: rgb(10, 10, 10);
     margin-top: 10rem;
+    margin-right: 5rem;
+}
+
+form{
+    margin-top: 4rem;
+    padding: 1rem;
+    background-color: white;
+    height: 30vh;
+}
+
+.form-container{
+    display: flex;
+    padding-left: 2rem;
+}
+
+#container-left, #container-right{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-left > label, #container-right > label{
+    margin-top: 1.5rem;
+}
+
+#container-left{
+    margin-right: 5rem;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    opacity: 0.8;
+}
+
+input{
+    font-size: 18px;
+}
+
+
+.capt{
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 0.8;
+    padding-left: 2rem;
 }

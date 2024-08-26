@@ -114,7 +114,7 @@ label {
 }
 
 input{
-    font-size: 18px;
+    font-size: 22px;
     border: 1px solid #E5E7EB;
 }
 
@@ -123,4 +123,25 @@ input{
     font-size: 24px;
     opacity: 0.8;
     padding-left: 2rem;
+}
+
+.login{
+    margin: 2rem 0 0 2rem;
+}
+
+.login > button{
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+    background-color: #596D48;
+    border: 0;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.login > p > a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
 }
